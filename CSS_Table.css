@@ -12,7 +12,7 @@ table {
     width: 80%;
     margin: auto;
     border-collapse: collapse;
-    background-color: #fff;
+    background-color: #e0f7fa; /* Added light blue background color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 th, td {
@@ -21,15 +21,15 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 th {
-    background-color: #f2f2f2;
+    background-color: #b2ebf2; /* Added darker blue background color for header cells */
     color: #333;
 }
 tr:hover {
     background-color: #f9f9f9;
 }
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #b2ebf2; /* Added color for even rows */
 }
 tr:nth-child(odd) {
-    background-color: #fff;
+    background-color: #e0f7fa; /* Added color for odd rows */
 }
